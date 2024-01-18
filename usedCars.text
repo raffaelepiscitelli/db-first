@@ -1,0 +1,15 @@
+id - intero - MEDIUMINT - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
+chassis_number - stringa - VARCHAR(17) - UNIQUE - NOT NULL
+license_plate - stringa - VARCHAR(10) - NOT NULL
+brand - stringa - VARCHAR(20) - NOT NULL
+model - stringa - VARCHAR(20) - NOT NULL
+production_year - date - YEAR - NULL
+colour - stringa - VARCHAR(20) - NULL
+fuel_type - stringa - VARCHAR(20) - NOT NULL
+engine_chassis_number - stringa - VARCHAR(17) - UNIQUE - NOT NULL
+registration_day - date - DATE - NULL
+manual_trasmission - booleano - BOOLEAN (TINYINT) - NOT NULL
+number_of_doors - VARCHAR(2) - NULL
+number_of_seats - VARCHAR(2) - NULL
+4WD - booleano - BOOLEAN (TINYINT) - NULL
+price - float - FLOAT (10, 2) - NULL
